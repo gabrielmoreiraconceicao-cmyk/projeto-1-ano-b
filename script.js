@@ -25,6 +25,5 @@ function mudaTema() {
        corpoPagina.classList.removi("tema-escuro");
    } else {
         corpoPagina.classList.add("tema-escuro");
-   }
-    
+   }    
 }
