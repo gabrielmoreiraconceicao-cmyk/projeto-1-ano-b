@@ -7,6 +7,10 @@
     --cor-botao: #f9f9f9;
 }
 
+* {
+    transition: background-color 0,3 ease;
+}
+
 .tema-escuro {
     --cor-primaria:#bad0e8;
     --cor-secundaria:#3f648d;
@@ -15,6 +19,10 @@
     --cor-contraste:#031046;
     --cor-botao: #051441;
 
+
+.tema-escuro .artigo-autor {
+    background-color: var(--cor-secundaria);
+}
 }
 
 body {
